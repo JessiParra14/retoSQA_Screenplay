@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Seleccionar productos</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Seleccionar productos</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Seleccionar productos</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">41.263s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Seleccionar productos de una categoria"></a>
+<h3 class="failures">Seleccionar productos de una categoria</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-42PCL9G', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ae1087d9ddc5ff3e0530ba47fa9521b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at co.com.dafiti.Interactions.CerrarVentana.performAs(CerrarVentana.java:13)
+	at co.com.dafiti.Interactions.CerrarVentana$ByteBuddy$r0krYNYQ.performAs$accessor$RxKtlcLN(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at co.com.dafiti.Interactions.CerrarVentana$ByteBuddy$r0krYNYQ.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
+	at co.com.dafiti.StepDefinitions.SeleccionarProductosStepDefinition.inicieSesionYSeleccioneLosProductos(SeleccionarProductosStepDefinition.java:41)
+	at ✽.inicie sesion y seleccione los productos(file:///C:/Users/HOME/Desktop/Semillero%20SQA/Screenplay/MiRetoScreenplay_JessicaParra/src/test/resources/features/seleccionarProductos.feature:6)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Seleccionar productos de una categoria</td>
+<td class="failures">41.263s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>13:00:31.048 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/HOME/Desktop/Semillero%20SQA/Screenplay/MiRetoScreenplay_JessicaParra/src/test/resources/features/seleccionarProductos.feature
+13:00:31.190 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Seleccionar productos de una categoria(seleccionar-productos;seleccionar-productos-de-una-categoria)
+-------------------------------------------------------------------
+13:00:31.284 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Registro exitoso
+13:00:31.302 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Seleccionar productos
+13:00:32.093 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SeleccionarProductosStepDefinition.queElUsuarioSeEncuentraEnLaPaginaWeb - {0} opens the #targetPage
+13:00:32.182 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+13:00:33.099 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=104 in cache (valid until 13:56:05 12/08/2022 COT)
+13:00:33.101 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome104=104.0.5112.79 in cache (valid until 12:56:05 13/08/2022 COT)
+13:00:33.102 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+13:00:33.116 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 104.0.5112.79 found in cache
+13:00:33.117 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HOME\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+13:00:33.875 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+13:00:33.875 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+13:00:38.095 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+13:00:38.097 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+13:00:39.166 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\94942dad5291ddff4a2b2917e818b6616b4567d85c367ab48d58582c796b6e04.png
+13:00:39.166 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7371881699096255093
+13:00:39.166 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\94942dad5291ddff4a2b2917e818b6616b4567d85c367ab48d58582c796b6e04.png
+13:00:39.172 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPage
+13:00:40.784 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\069138319f016c42b3454a1284dc73ed1978e10b24b54e63033af69f4011abc7.png
+13:00:40.785 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7214777928274859717
+13:00:40.785 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\069138319f016c42b3454a1284dc73ed1978e10b24b54e63033af69f4011abc7.png
+13:00:42.492 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\7107abd69d11113388f2836295dc39103b95907a6858f44d5beafdcac55bec74.png
+13:00:42.492 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4903504811990974165
+13:00:42.492 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\7107abd69d11113388f2836295dc39103b95907a6858f44d5beafdcac55bec74.png
+13:00:42.492 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SeleccionarProductosStepDefinition.inicieSesionYSeleccioneLosProductos - performAs
+13:00:43.890 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\ca9188150865e6d07b47216349f6c83e690fe591b6ec5f956255e7f9c6b6fa28.png
+13:00:43.890 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4191804085213502609
+13:00:43.890 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\ca9188150865e6d07b47216349f6c83e690fe591b6ec5f956255e7f9c6b6fa28.png
+13:00:43.892 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PaginaPrincipal.performAs - {0} clicks on #target
+13:00:43.895 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click registrarse
+13:00:46.281 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\284c9453538f6303d2d8d87654dcf3ce209d26ae5763c0ecae28cb17e8961afe.png
+13:00:46.328 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+13:00:46.893 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\6cb51dfd16f6a11da7ba5c9a40f8183be4d00e1c301387eef1d89610109afeca.png
+13:00:46.893 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+13:00:46.941 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SeleccionarProductosStepDefinition.inicieSesionYSeleccioneLosProductos - performAs
+13:00:49.412 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\6cb51dfd16f6a11da7ba5c9a40f8183be4d00e1c301387eef1d89610109afeca.png
+13:00:49.414 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} enters #theTextAsAString into #target
+13:00:49.414 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Ingresar correo
+13:00:50.611 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\8c066b8783ed74b3af36bb215578daeab030aaa4660f63775aee727f74056871.png
+13:00:50.645 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+13:00:51.154 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\73453bb96c679155c09a813aac29e624257a3b7471e0e4bdc5e8a1200fa457b0.png
+13:00:51.157 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} enters #theTextAsAString into #target
+13:00:51.158 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Ingresar contraseña
+13:00:52.151 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\a0143eda55d0d6d98a159e774431319bb77c6893a19edd22157c208129bfac50.png
+13:00:52.174 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+13:00:52.195 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} clicks on #target
+13:00:52.198 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click ingresar
+13:00:54.866 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\a9f6002d5d174cf406b0a80ac6c76fca9cecafe9a408649f8576bc1538968fce.png
+13:00:54.876 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1900590269913946823
+13:00:54.876 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\a9f6002d5d174cf406b0a80ac6c76fca9cecafe9a408649f8576bc1538968fce.png
+13:00:55.883 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\4dd383045c7b861c245c36c47a5bc17f0ee44fb5dbb8e0d6be0308d822e5b9ff.png
+13:00:55.885 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+13:00:56.705 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\2960ebbc8385184c59a146e3515aa154516080af64960f3cd1025c6ac7005b96.png
+13:00:56.707 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+13:00:56.730 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SeleccionarProductosStepDefinition.inicieSesionYSeleccioneLosProductos - performAs
+13:00:56.747 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Seleccionar categoria
+13:00:57.007 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Seleccionar relojes
+13:00:57.686 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\ea6cd3b605244bc1f06cc45143b72013cbc6c9b6a06dfefefde7612656dca7c8.png
+13:00:57.690 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Categoria.performAs - {0} clicks on #target
+13:00:57.690 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Seleccionar relojes
+13:01:00.957 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\edf5187e3956eb181a57a1dbf54e962e669e96c36236942ba29743f609280856.png
+13:01:00.958 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3356934442547070741
+13:01:00.959 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\edf5187e3956eb181a57a1dbf54e962e669e96c36236942ba29743f609280856.png
+13:01:02.938 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\feac8e0ca41cdf8d39d887eaa60ed20f721affb1e9a0589ba780bdb3e99169cd.png
+13:01:02.938 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2765643722195044646
+13:01:02.938 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\feac8e0ca41cdf8d39d887eaa60ed20f721affb1e9a0589ba780bdb3e99169cd.png
+13:01:02.940 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+13:01:02.984 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+13:01:03.591 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\feac8e0ca41cdf8d39d887eaa60ed20f721affb1e9a0589ba780bdb3e99169cd.png
+13:01:03.597 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SeleccionarProductosStepDefinition.inicieSesionYSeleccioneLosProductos - performAs
+13:01:09.185 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\feac8e0ca41cdf8d39d887eaa60ed20f721affb1e9a0589ba780bdb3e99169cd.png
+13:01:09.187 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+13:01:09.233 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SeleccionarProductosStepDefinition.inicieSesionYSeleccioneLosProductos - performAs
+13:01:09.898 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\feac8e0ca41cdf8d39d887eaa60ed20f721affb1e9a0589ba780bdb3e99169cd.png
+13:01:11.514 [Test worker] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ &lt;|  _ &lt;| |_| |  _ &lt; 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
+
+Seleccionar productos de una categoria
+---------------------------------------------------------------------
+13:01:11.521 [Test worker] DEBUG  - RELATED ISSUES: 
+13:01:12.069 [Test worker] ERROR  -     Test failed at step: Jessica cerrar ventana
+13:01:12.069 [Test worker] ERROR  -     no such alert
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 32035
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ago 12, 2022 1:00:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 12/08/2022 01:01:14 PM</p>
+</div>
+</div>
+</body>
+</html>
