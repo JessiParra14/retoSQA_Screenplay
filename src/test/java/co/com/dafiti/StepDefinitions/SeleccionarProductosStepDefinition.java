@@ -1,7 +1,5 @@
 package co.com.dafiti.StepDefinitions;
 
-import co.com.dafiti.Interactions.CerrarVentana;
-import co.com.dafiti.Interactions.Esperar;
 import co.com.dafiti.Questions.ValidarProductos;
 import co.com.dafiti.Tasks.*;
 import co.com.dafiti.UserInterfaces.PaginaPrincipalUI;

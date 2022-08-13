@@ -1,0 +1,29 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­á–—ûÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ªº·Ìúÿÿÿÿ
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(â™Ü×øÿÿÿÿ
+O
+java:S3252	"9Use static access with "org.openqa.selenium.By" for "id".(¨ñòù
+O
+java:S3252
+"9Use static access with "org.openqa.selenium.By" for "id".(’ÁÀ«
+O
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(µ¤˜ñ
+O
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(Â°®Ÿ
+O
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(ÛËÒ°
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(•Âéèúÿÿÿÿ
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(¬ñ¼›þÿÿÿÿ
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(‚­¼™ÿÿÿÿÿ
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(—¬šžøÿÿÿÿ
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(Óí—âþÿÿÿÿ
+O
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(Ó«Á–

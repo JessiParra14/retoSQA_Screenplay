@@ -9,6 +9,6 @@ public class MensajeRegistroUI {
     Datos datos = new Datos();
 
     public static final Target MSJ_REGISTRO = Target.the("Registro exitoso")
-            .located(By.xpath("//span[text()='Hola, Jessica']"));
+            .located(By.xpath("//*[contains(text(),'Hola,')]"));
 
 }

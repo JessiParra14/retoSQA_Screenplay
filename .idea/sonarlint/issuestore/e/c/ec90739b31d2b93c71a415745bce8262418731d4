@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­á–—ûÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(®èÜ›øÿÿÿÿ
+R
+java:S3252"<Use static access with "org.openqa.selenium.By" for "xpath".(“íýµ

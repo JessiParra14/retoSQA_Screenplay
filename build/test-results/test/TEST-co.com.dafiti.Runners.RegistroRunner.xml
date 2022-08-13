@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.dafiti.Runners.RegistroRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-42PCL9G" time="0.0">
+  <properties/>
+  <system-out><![CDATA[17:36:04.526 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\serenity.properties 
+17:36:04.885 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\serenity.properties 
+17:36:04.889 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\serenity.properties 
+17:36:04.905 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+17:36:04.905 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=chromedriver.exe
+17:36:04.913 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--start-maximized --disable-popup-blocking
+17:36:04.914 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
+17:36:04.914 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+17:36:05.484 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/HOME/Desktop/Semillero%20SQA/Screenplay/MiRetoScreenplay_JessicaParra/src/test/resources/features/registro.feature
+17:36:05.842 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\serenity.properties 
+17:36:05.966 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\serenity.properties 
+17:36:05.969 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\serenity.properties 
+17:36:05.970 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+17:36:05.970 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=chromedriver.exe
+17:36:05.970 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--start-maximized --disable-popup-blocking
+17:36:05.970 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
+17:36:05.980 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+17:36:06.022 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+17:36:06.028 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@2b6fe108
+17:36:06.028 [Test worker] INFO  - Test Suite Started: Registro exitoso
+
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m52,278s
+
+
+17:36:57.786 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+17:36:58.654 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+17:36:58.688 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6d3ad37a
+17:36:58.691 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro exitoso:Registro exitoso de un usuario
+17:36:58.691 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@6d3ad37a: Generating report for test outcome: Registro exitoso:Registro exitoso de un usuario
+17:36:58.696 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Registro exitoso de un usuario to file C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\dd525366b4ee644228f064e0c574110f98e1aa82e239edf3ad8624c05706c49f.json (using temp file C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity\dd525366b4ee644228f064e0c574110f98e1aa82e239edf3ad8624c05706c49f.jsonbb1334f0-1e3b-4922-9360-8985cad50904)
+17:36:58.834 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro exitoso:Registro exitoso de un usuario done
+17:36:58.834 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+17:36:58.834 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 146 ms
+17:36:58.835 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@1da53f4f
+17:36:58.846 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro exitoso:Registro exitoso de un usuario
+17:36:58.846 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@1da53f4f: Generating report for test outcome: Registro exitoso:Registro exitoso de un usuario
+17:36:58.847 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Registro exitoso de un usuario in dd525366b4ee644228f064e0c574110f98e1aa82e239edf3ad8624c05706c49f
+17:36:58.884 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Registro exitoso
+17:36:58.889 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Seleccionar productos
+17:36:58.891 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Registro exitoso', type='feature' parent = 'null', cardNumber='null'}, Requirement{name='Seleccionar productos', type='feature' parent = 'null', cardNumber='null'}]
+17:36:58.900 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Registro exitoso de un usuario-[]: Optional[Requirement{name='Registro exitoso', type='feature' parent = 'null', cardNumber='null'}]
+17:36:58.904 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Registro exitoso de un usuario-[]: Optional[Requirement{name='Registro exitoso', type='feature' parent = 'null', cardNumber='null'}]
+17:36:58.958 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Registro exitoso de un usuario-[]: Optional[Requirement{name='Registro exitoso', type='feature' parent = 'null', cardNumber='null'}]
+17:36:58.959 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Registro exitoso de un usuario-[]: Optional[Requirement{name='Registro exitoso', type='feature' parent = 'null', cardNumber='null'}]
+17:36:58.960 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in dd525366b4ee644228f064e0c574110f98e1aa82e239edf3ad8624c05706c49f_screenshots.html
+17:37:00.312 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report dd525366b4ee644228f064e0c574110f98e1aa82e239edf3ad8624c05706c49f_screenshots.html in 1352 ms
+17:37:00.314 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Registro exitoso:Registro exitoso de un usuario in dd525366b4ee644228f064e0c574110f98e1aa82e239edf3ad8624c05706c49f.html in directory C:\Users\HOME\Desktop\Semillero SQA\Screenplay\MiRetoScreenplay_JessicaParra\target\site\serenity  
+17:37:00.314 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in dd525366b4ee644228f064e0c574110f98e1aa82e239edf3ad8624c05706c49f.html
+17:37:01.896 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report dd525366b4ee644228f064e0c574110f98e1aa82e239edf3ad8624c05706c49f.html in 1582 ms
+17:37:01.896 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro exitoso:Registro exitoso de un usuario done
+17:37:01.897 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+17:37:01.897 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 3062 ms
+17:37:02.128 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/HOME/Desktop/Semillero%20SQA/Screenplay/MiRetoScreenplay_JessicaParra/src/test/resources/features/registro.feature
+17:37:02.129 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+17:37:02.129 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
